@@ -42,4 +42,43 @@
   padding: 0.25rem;
   border-radius: 100%;
   box-shadow: 0 0 10px #000055;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.feature .icon {
+  color: #0075ff;
+  font-size: 10rem;
+}
+.feature .description .title {
+  font-size: 2rem;
+}
+.feature .description .text {
+  color: #888;
+  font-weight: 600;
+}
+.feature .description .cta {
+  color: #0075ff;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.icon-desc .icon {
+  color: #0075ff;
+  font-size: 10rem;
+  padding: 0;
+}
+.icon-desc .title {
+  margin-top: -2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
